@@ -1,0 +1,1 @@
+(print (let ((stdout (open-out "/tmp/cs164/test"))) (close-out stdout)))

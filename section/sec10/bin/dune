@@ -1,0 +1,6 @@
+(executable
+ (name interp)
+ (modules interp)
+ (preprocess
+  (pps ppx_let))
+ (libraries core lib syntax core_unix.command_unix))
